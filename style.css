@@ -2583,7 +2583,7 @@ text-align:right;
 .custom-hero-section {
     position: relative;
     padding: 160px 0 140px 0; /* Creates spatial breathing room top and bottom */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('img/banner-image-culture.png'); /* Overlay darkens bright images to protect text legibility */
+    background-image: url('banner-image-culture.png'); /* Overlay darkens bright images to protect text legibility */
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
@@ -2763,7 +2763,7 @@ text-align:right;
 
         .card-content {
             border: 2px solid #dede54;
-            border-radius: 6px;
+            border-radius: 10px;
             padding: 55px 20px 25px 20px;
             background-color: #ffffff;
             min-height: 400px;
