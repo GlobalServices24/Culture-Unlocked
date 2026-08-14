@@ -118,15 +118,7 @@ img {
   color: #fff;
   box-shadow: 0 4px 15px rgba(232, 40, 26, 0.35);
 }
-.bname {
-  font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: var(--dark);
-}
-.bname span {
-  color: var(--primary);
-}
+
 .bsub {
   font-size: 0.62rem;
   text-transform: uppercase;
@@ -148,6 +140,7 @@ img {
   color: #fff !important;
   padding: 26px 13px !important;
   position: relative;
+	font-family:'Ubuntu', sans-serif !important;
 }
 .navbar-nav .nav-link::after {
   content: "";
@@ -269,18 +262,7 @@ section {
 #hero {
     padding-top: 100px;       /* Adjust this value based on your actual navbar height */
 }
-.hbgtxt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 22vw;
-  font-weight: 900;
-  font-family: "Playfair Display", serif;
-  color: rgba(0, 0, 0, 0.04);
-  pointer-events: none;
-  white-space: nowrap;
-}
+
 .hs {
   position: absolute;
   border-radius: 50%;
@@ -409,48 +391,15 @@ section {
   flex-wrap: wrap;
   margin-top: 32px;
 }
-.hstat .snum {
-  font-family: "Playfair Display", serif;
-  font-size: 1.9rem;
-  font-weight: 900;
-  color: var(--dark);
-  display: block;
-  line-height: 1;
-}
-.hstat .snum em {
-  color: var(--primary);
-  font-style: normal;
-}
-.hstat small {
-  font-size: 0.7rem;
-  color: #aaa;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+
+
 .sdiv {
   width: 1px;
   background: #ddd;
   height: 38px;
   align-self: center;
 }
-.hcircle {
-  width: 480px;
-  height: 480px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 40% 40%, #fff8f0, #ffe5c8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  position: relative;
-  box-shadow: 0 28px 76px rgba(232, 40, 26, 0.14);
-}
-.hcircle img {
-  width: 90%;
-  height: 90%;
-  object-fit: cover;
-  border-radius: 50%;
-}
+
 .fcard {
   position: absolute;
   background: #fff;
@@ -645,28 +594,8 @@ section #about{
   height: 100%;
   object-fit: cover;
 }
-.aexp {
-  position: absolute;
-  top: 28px;
-  left: -16px;
-  background: var(--primary);
-  color: #fff;
-  border-radius: 14px;
-  padding: 18px 22px;
-  text-align: center;
-  box-shadow: 0 10px 28px rgba(232, 40, 26, 0.4);
-}
-.aexp .anum {
-  font-family: "Playfair Display", serif;
-  font-size: 2.3rem;
-  font-weight: 900;
-  line-height: 1;
-  display: block;
-}
-.aexp small {
-  font-size: 0.7rem;
-  opacity: 0.9;
-}
+
+
 .fti {
   display: flex;
   align-items: flex-start;
@@ -852,19 +781,7 @@ section #about{
   align-items: center;
   justify-content: space-between;
 }
-.mprice {
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--primary);
-  font-family: "Playfair Display", serif;
-}
-.mprice small {
-  font-size: 0.72rem;
-  font-weight: 400;
-  color: #ccc;
-  text-decoration: line-through;
-  margin-left: 5px;
-}
+
 .mstars {
   font-size: 0.73rem;
   color: var(--secondary);
@@ -1027,14 +944,6 @@ section #about{
   border-radius: 11px;
   padding: 13px 18px;
   min-width: 72px;
-}
-.cdnum {
-  font-family: "Playfair Display", serif;
-  font-size: 2.1rem;
-  font-weight: 900;
-  color: #fff;
-  display: block;
-  line-height: 1;
 }
 .cdlbl {
   font-size: 0.63rem;
@@ -1229,21 +1138,8 @@ section #about{
   font-size: 1.15rem;
   margin-bottom: 3px;
 }
-.tl-left h5,
-.tl-right h5 {
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin-bottom: 7px;
-  font-family: "Playfair Display", serif;
-  color: var(--dark);
-}
-.tl-left p,
-.tl-right p {
-  font-size: 0.83rem;
-  color: #888;
-  line-height: 1.7;
-  margin: 0;
-}
+
+
 @media (max-width: 767px) {
   .timeline::before {
     left: 16px;
@@ -1461,15 +1357,7 @@ section #about{
   transform: translateY(-5px);
   box-shadow: var(--shadow);
 }
-.tesq {
-  position: absolute;
-  top: 18px;
-  right: 22px;
-  font-size: 4.5rem;
-  color: rgba(232, 40, 26, 0.07);
-  font-family: "Playfair Display", serif;
-  line-height: 1;
-}
+
 .tess {
   color: var(--secondary);
   font-size: 0.83rem;
@@ -1829,7 +1717,7 @@ footer {
 
 
 .fnm {
-  font-family: "Playfair Display", serif;
+  font-family: 'Ubuntu', sans-serif !important;
   font-size: 1.9rem;
   font-weight: 900;
   color: #fff;
@@ -2061,13 +1949,7 @@ text-align:right;
   max-width: 680px;
   padding: 0 18px;
 }
-.sovbox h4 {
-  color: #fff;
-  text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 26px;
-  font-family: "Playfair Display", serif;
-}
+
 .sovinput {
   display: flex;
   border: 2px solid rgba(255, 255, 255, 0.18);
@@ -2240,13 +2122,7 @@ text-align:right;
   letter-spacing: 1.3px;
   margin-bottom: 7px;
 }
-#mpTitle {
-  font-size: 1.7rem;
-  font-weight: 900;
-  margin-bottom: 9px;
-  font-family: "Playfair Display", serif;
-  color: var(--dark);
-}
+
 #mpStars {
   color: var(--secondary);
   font-size: 0.88rem;
@@ -2258,13 +2134,7 @@ text-align:right;
   line-height: 1.8;
   margin-bottom: 18px;
 }
-#mpPrice {
-  font-size: 1.9rem;
-  font-weight: 900;
-  color: var(--primary);
-  margin-bottom: 14px;
-  font-family: "Playfair Display", serif;
-}
+
 #mpPrice small {
   font-size: 0.95rem;
   color: #ccc;
