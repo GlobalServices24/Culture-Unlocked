@@ -824,6 +824,12 @@ section#about{
          background-position: right top; /* Tailored position for the smaller graphic */
          padding: 40px 0;
       }
+
+	   .filtbtn {
+
+  font-size: 1.1rem;
+
+}
    }
 	  @media (max-width: 991px){
       #culture_change {
@@ -831,6 +837,16 @@ section#about{
          background-position: right top; /* Tailored position for the smaller graphic */
          padding: 40px 0;
       }
+		  button.filtbtn:last-child {
+    margin-top: 15px;
+			  width: 225px;
+}
+	  }
+  @media (max-width: 553px){
+ 
+		  button.filtbtn{
+    margin-top: 15px;
+}
 	  }
 	  /* ===================== Travel Section ===================== */
 #travel {
