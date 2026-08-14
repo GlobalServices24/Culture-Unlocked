@@ -1731,11 +1731,13 @@ footer {
 .fsoc {
   display: flex;
   gap: 9px;
-  margin-top: 18px;
+     margin-top: 58px;
+    justify-content: flex-end;
+    gap: 15px;
 }
 .fsoc a {
-  width: 66px;
-  height: 66px;
+  width: 36px;
+  height: 36px;
   border-radius: 9px;
   background: none;
   display: flex;
