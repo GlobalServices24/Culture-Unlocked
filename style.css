@@ -597,6 +597,7 @@ section {
 /* ===================== ABOUT ===================== */
 #about {
   background: #fff;
+padding: 32px 0px 0px 0px;
 }
 section #about{
   padding: 32px 0px 0px 0px;
