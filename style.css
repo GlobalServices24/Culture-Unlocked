@@ -809,7 +809,7 @@ section #about{
 /* ===================== Culture Change Section ===================== */
 #culture_change {
 
- background-image: url('../img/culture_change-bg.png'); 
+ background-image: url('culture_change-bg.png'); 
  background-color: var(--primary); 
  background-size: cover; 
  background-position: right center; 
