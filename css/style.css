@@ -1760,7 +1760,8 @@ footer {
   transition: 0.3s;
 }
 .fsoc a:hover {
-  background: var(--primary);
+  border-bottom: 1px solid;
+    border-radius: 0px;
   color: #fff;
   transform: translateY(-3px);
 }
