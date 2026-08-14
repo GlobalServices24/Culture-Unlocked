@@ -598,7 +598,7 @@ section {
 #about {
   background: #fff;
 }
-section #about{
+section#about{
   padding: 32px 0px 0px 0px;
 }
 
@@ -891,7 +891,7 @@ section #about{
 /* ===================== Culture Change Section ===================== */
 #culture_change {
 
- background-image: url('../img/culture_change-bg.png'); 
+ background-image: url('./img/culture_change-bg.png'); 
  background-color: var(--primary); 
  background-size: cover; 
  background-position: right center; 
@@ -904,7 +904,7 @@ section #about{
    /* Responsive override for smaller screens (below 1200px) */
    @media (max-width: 1200px){
       #culture_change {
-         background-image: url('../img/mobile_culture_change-bg.png'); /* New smaller/shifted asset */
+         background-image: url('./img/mobile_culture_change-bg.png'); /* New smaller/shifted asset */
          background-position: right top; /* Tailored position for the smaller graphic */
          padding: 40px 0;
       }
@@ -2582,7 +2582,7 @@ text-align:right;
 .custom-hero-section {
     position: relative;
     padding: 160px 0 140px 0; /* Creates spatial breathing room top and bottom */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('img/banner-image-culture.png'); /* Overlay darkens bright images to protect text legibility */
+    background-image: url('./img/banner-image-culture.png'); /* Overlay darkens bright images to protect text legibility */
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
