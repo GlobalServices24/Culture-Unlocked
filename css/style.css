@@ -837,9 +837,11 @@ section#about{
          background-position: right top; /* Tailored position for the smaller graphic */
          padding: 40px 0;
       }
+		   button.filtbtn {
+			  width: 225px;
+}
 		  button.filtbtn:last-child {
     margin-top: 15px;
-			  width: 225px;
 }
 	  }
   @media (max-width: 553px){
