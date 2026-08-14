@@ -2408,6 +2408,10 @@ text-align:right;
   margin: 0 auto;
 
 }
+	
+.speaker-card {
+    flex: 0 0 calc(50% - 17px);
+}
 }
 @media (max-width: 767px) {
   section {
