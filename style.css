@@ -822,7 +822,7 @@ section #about{
    /* Responsive override for smaller screens (below 1200px) */
    @media (max-width: 1200px){
       #culture_change {
-         background-image: url('../img/mobile_culture_change-bg.png'); /* New smaller/shifted asset */
+         background-image: url('mobile_culture_change-bg.png'); /* New smaller/shifted asset */
          background-position: right top; /* Tailored position for the smaller graphic */
          padding: 40px 0;
       }
