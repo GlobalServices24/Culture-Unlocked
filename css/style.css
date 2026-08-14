@@ -1727,7 +1727,6 @@ footer {
     font-size: 1.4rem;
     line-height: 1.8;
     margin-top: 9px;
-    font-style: italic;
 }
 .fsoc {
   display: flex;
@@ -1735,15 +1734,15 @@ footer {
   margin-top: 18px;
 }
 .fsoc a {
-  width: 36px;
-  height: 36px;
+  width: 66px;
+  height: 66px;
   border-radius: 9px;
   background: none;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--white);
-  font-size: 0.88rem;
+  font-size: 0.8rem;
   transition: 0.3s;
 }
 .fsoc a:hover {
