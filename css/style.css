@@ -1163,12 +1163,15 @@ section#about{
   .tli:nth-child(odd) .tl-right {
     visibility: visible !important;
   }
+	
+.speaker-card {
+    flex: 0 0 100%;
+
+}
 }
 
-/* ===================== CHEFS ===================== */
-#chefs {
-  background: #fff;
-}
+
+
 .chcard {
   border-radius: 18px;
   overflow: hidden;
