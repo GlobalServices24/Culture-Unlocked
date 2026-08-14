@@ -2581,14 +2581,14 @@ text-align:right;
 /* Custom Background and Layout Container */
 .custom-hero-section {
     position: relative;
-    padding: 160px 0 140px 0; /* Creates spatial breathing room top and bottom */
+    padding: 10px 0 140px 0; /* Creates spatial breathing room top and bottom */
     background-image: url('banner-image-culture.png'); /* Overlay darkens bright images to protect text legibility */
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    min-height: 80vh; /* Scaled viewport depth */
+    min-height: 150vh; /* Scaled viewport depth */
 }
 
 /* Typography Hierarchy */
