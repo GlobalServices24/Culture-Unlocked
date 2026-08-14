@@ -1723,10 +1723,11 @@ footer {
   color: var(--primary);
 }
 .fdesc {
-  color: var(--white);
-  font-size: 0.86rem;
-  line-height: 1.8;
-  margin-top: 9px;
+     color: var(--white);
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-top: 9px;
+    font-style: italic;
 }
 .fsoc {
   display: flex;
@@ -1764,18 +1765,22 @@ text-align:right;
   list-style: none;
   margin-bottom: 9px;
   display:inline;
+	    margin-left: 30px;
+    font-weight: 500;
 }
 .flinks a {
   color: var(--white);
-  font-size: 0.86rem;
+  font-size: 1.3rem;
   display: inline-flex;
   align-items: center;
   gap: 7px;
   transition: 0.3s;
+	  font-family: 'Ubuntu', sans-serif !important;
 }
 .flinks a:hover {
-  color: var(--secondary);
-  padding-left: 5px;
+  color: var(--white);
+	text-decoration: underline;
+
 }
 .flinks a i {
   color: var(--primary);
