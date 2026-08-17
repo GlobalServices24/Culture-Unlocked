@@ -1184,7 +1184,7 @@ section#about{
   }
 	
 .speaker-card {
-    flex: 0 0 100%;
+    flex: 0 0 100% !important;
 
 }
 }
@@ -2712,7 +2712,7 @@ text-align:right;
 
         @media (max-width: 600px) {
             .speaker-card {
-                flex: 0 0 100%;
+                flex: 0 0 100% !important;
             }
             .nav-btn {
                 width: 38px;
