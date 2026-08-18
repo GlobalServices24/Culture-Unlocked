@@ -1156,6 +1156,11 @@ section#about{
   font-size: 1.15rem;
   margin-bottom: 3px;
 }
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 990px;
+    }
+}
 @media (max-width: 767px) {
   .timeline::before {
     left: 16px;
