@@ -830,6 +830,19 @@ section#about{
   font-size: 1.1rem;
 
 }
+
+.custom-hero-section {
+    position: relative;
+    padding: 10px 0 140px 0;
+    background-image: url(../img/banner-image-culture-tablet.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 150vh;
+}
+	   
    }
 	  @media (max-width: 991px){
       #culture_change {
