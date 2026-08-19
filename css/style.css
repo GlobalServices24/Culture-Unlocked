@@ -194,7 +194,8 @@ img {
 }
 .fas.fa-bars
 {
-	color:var(--white);
+	color:var(--acdarkgrey);
+	font-size:1.35rem
 }
 
 /* ===================== SECTION COMMONS ===================== */
@@ -1219,6 +1220,11 @@ section#about{
     display: flex;
     align-items: center;
     min-height: 150vh;
+}
+	.fas.fa-bars
+{
+	color:var(--white);
+	font-size:1.35rem
 }
 }
 
