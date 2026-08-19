@@ -923,6 +923,10 @@ section#about{
 	  {
 		  color: var(--secondary); 
 	  }
+h2.sptitle.limetext
+	  {
+		  color: var(--secondary); 
+	  }
 .spbg {
   position: absolute;
   inset: 0;
