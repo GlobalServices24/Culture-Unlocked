@@ -838,7 +838,7 @@ section#about{
 .custom-hero-section {
     position: relative;
     padding: 10px 0 140px 0;
-    background-image: url(../img/banner-image-culture-Tablet.png);
+    background-image: url(../img/banner-image-culture-Tablet.png) !important;
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
@@ -1212,7 +1212,7 @@ section#about{
 	.custom-hero-section {
     position: relative;
     padding: 10px 0 140px 0;
-    background-image: url(../img/banner-image-culture-Mobile.png);
+    background-image: url(../img/banner-image-culture-Mobile.png) !important;
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
