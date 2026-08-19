@@ -192,6 +192,10 @@ img {
 .nav-cta:hover {
   background:#C3C338;
 }
+.fas.fa-bars
+{
+	color:var(--white);
+}
 
 /* ===================== SECTION COMMONS ===================== */
 section {
@@ -834,7 +838,7 @@ section#about{
 .custom-hero-section {
     position: relative;
     padding: 10px 0 140px 0;
-    background-image: url(../img/banner-image-culture-tablet.png);
+    background-image: url(../img/banner-image-culture-Tablet.png);
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
@@ -1204,6 +1208,17 @@ section#about{
 .speaker-card {
     flex: 0 0 100% !important;
 
+}
+	.custom-hero-section {
+    position: relative;
+    padding: 10px 0 140px 0;
+    background-image: url(../img/banner-image-culture-Mobile.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 150vh;
 }
 }
 
