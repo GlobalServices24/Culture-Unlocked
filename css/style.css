@@ -2493,6 +2493,21 @@ text-align:right;
     align-items: center;
     min-height: 190vh;
 }
+.col-lg-5.rightfooter {
+    text-align: left; 
+}
+	.ftit{
+    text-align: left; 
+}
+	.flinks li {
+     margin-left: 30px;
+    margin-right: 0px;
+	}
+
+	.fsoc {
+    justify-content: flex-start;
+	}
+	
 }
 @media (max-width: 767px) {
   section {
