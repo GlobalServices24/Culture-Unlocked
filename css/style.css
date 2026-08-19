@@ -2472,7 +2472,23 @@ text-align:right;
 .speaker-card {
     flex: 0 0 calc(50% - 17px) !important;
 }
-	
+
+	.fas.fa-bars
+{
+	color:var(--white);
+	font-size:1.35rem
+}
+		.custom-hero-section {
+    position: relative;
+    padding: 10px 0 140px 0;
+    background-image: url(../img/banner-image-culture-Mobile.png) !important;
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 150vh;
+}
 }
 @media (max-width: 767px) {
   section {
@@ -2516,17 +2532,7 @@ text-align:right;
   .fcard {
     padding: 22px 18px;
   }
-	.custom-hero-section {
-    position: relative;
-    padding: 10px 0 140px 0;
-    background-image: url(../img/banner-image-culture-Mobile.png) !important;
-    background-size: cover;
-    background-position: center right;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    min-height: 150vh;
-}
+
 }
 @media (max-width: 480px) {
   .hcircle {
