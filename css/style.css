@@ -2578,7 +2578,18 @@ text-align:right;
     min-height: 190vh !important;
 }
 }
-
+/* Custom Background and Layout Container */
+.custom-hero-section {
+    position: relative;
+    padding: 90px 0 140px 0; /* Creates spatial breathing room top and bottom */
+    background-image: url('../img/banner-image-culture-new.png'); /* Overlay darkens bright images to protect text legibility */
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 90vh; /* Scaled viewport depth */
+}
 
 
 /* Typography Hierarchy */
