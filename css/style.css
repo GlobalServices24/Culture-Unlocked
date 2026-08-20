@@ -647,7 +647,7 @@ section#about{
 #agenda {
   background: var(--white);
 	background-image: url(../img/agenda-bg.png);
-    background-size: 50%; 
+    background-size: auto; 
     background-position: left top; 
     background-repeat: no-repeat; 
     color: #ffffff; 
