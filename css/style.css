@@ -2526,14 +2526,27 @@ text-align:right;
 
 .custom-hero-section {
     position: relative;
-    padding: 140px 0 140px 0;
-    background-image: url(../img/banner-image-culture-Mobile-new.png) !important;
+    padding: 140px 0 100px 0 !important
+    background-image: url(../img/banner-image-culture-Mobile-small.png) !important;
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    min-height: 190vh !important;
+    min-height: 110vh !important;
+}
+.hero-title {
+    font-size: 1.9rem;
+}
+.badge-pill {
+    font-size: 1.05rem;
+}
+.hero-subtitle {
+    font-size: 1.3rem;
+}
+.btn-register {
+
+    font-size: 0.9rem;
 }
 }
 /* Custom Background and Layout Container */
