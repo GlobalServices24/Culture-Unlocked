@@ -2811,7 +2811,11 @@ text-align:right;
                 flex: 0 0 calc(50% - 13px) !important;
             }
         }
-
+@media (max-width: 767px) {
+    .speaker-card {
+        flex: 0 0 100% !important;
+    }
+}
         @media (max-width: 600px) {
             .speaker-card {
                 flex: 0 0 100% !important;
