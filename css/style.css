@@ -646,6 +646,17 @@ section#about{
 /* ===================== MENU ===================== */
 #agenda {
   background: var(--white);
+	background-image: url(../img/agenda-bg.png);
+    background-size: 50%; 
+    background-position: left top; 
+    background-repeat: no-repeat; 
+    color: #ffffff; 
+    padding: 60px 0;
+    min-height: 350px; 
+}
+#register {
+  background: var(--white);
+    
 }
 /* FIX 3 â€” Filter buttons */
 .filtbtn {
