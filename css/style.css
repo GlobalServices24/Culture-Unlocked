@@ -575,7 +575,7 @@ section#about{
   object-position:top;
 }
 .amain img.desktop {
-  display: block;
+  display: none;
 
 }
 .amain img.mobile {
