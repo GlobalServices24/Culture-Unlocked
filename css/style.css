@@ -2477,7 +2477,18 @@ text-align:right;
 	{
 		max-width:100% !important;
 	}
-	
+	.navbar-nav .nav-link::after
+	{
+		display:none !important;
+	}
+	.blogo img
+	{
+		margin-left:10px;
+	}
+	.navbar-toggler
+	{
+		padding-right:40px !important;
+	}
 }
 @media (max-width: 767px) {
   section {
@@ -2861,9 +2872,6 @@ text-align:right;
 
     --bs-gutter-x: 0 !important;
 	}
-	.navbar-nav .nav-link::after
-	{
-		display:none !important;
-	}
+	
 	
 }
