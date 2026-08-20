@@ -2858,7 +2858,7 @@ text-align:right;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    min-height: 110vh !important;
+    min-height: 80vh !important;
 }
 .hero-title {
     font-size: 1.9rem;
@@ -2896,6 +2896,9 @@ text-align:right;
 
     --bs-gutter-x: 0 !important;
 	}
-	
+	.fdesc {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
 	
 }
