@@ -88,6 +88,10 @@ img {
   font-weight: 600;
   text-transform: uppercase;
 }
+button:focus:not(:focus-visible)
+{
+	color: transparent !important;
+}
 
 /* ===================== NAVBAR ===================== */
 #nav {
