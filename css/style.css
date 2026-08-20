@@ -385,7 +385,6 @@ section {
 .btn-play:hover .pico {
   background: var(--primary);
   color: #fff;
-  transform: scale(1.1);
 }
 .btn-play:hover {
   color: var(--primary);
@@ -520,8 +519,7 @@ section {
 }
 .catcard:hover,
 .catcard.active {
-  transform: translateY(-7px);
-  box-shadow: 0 14px 38px rgba(232, 40, 26, 0.14);
+
   border-color: var(--primary);
 }
 .catimg {
@@ -533,9 +531,7 @@ section {
   display: block;
   transition: 0.4s;
 }
-.catcard:hover .catimg {
-  transform: scale(1.1) rotate(-4deg);
-}
+
 .catnm {
   font-size: 0.86rem;
   font-weight: 600;
@@ -628,9 +624,7 @@ section#about{
   background: rgba(45, 106, 79, 0.1);
   color: var(--green);
 }
-.fti:hover .ftico {
-  transform: scale(1.1);
-}
+
 .fti h6 {
   font-size: 0.9rem;
   font-weight: 700;
@@ -668,7 +662,6 @@ section#about{
   background: var(--primary);
   border-color: var(--seondary);
   color: var(--secondary);
-  box-shadow: 0 5px 18px rgba(232, 40, 26, 0.24);
 }
 .mb-4 {
     margin-bottom: 0.5rem !important;
@@ -692,10 +685,7 @@ section#about{
   flex-direction:column;
   flex-grow:1;
 }
-.mcard:hover {
-  transform: translateY(-9px);
 
-}
 .mimg {
   position: relative;
   overflow: hidden;
@@ -708,9 +698,7 @@ section#about{
   object-fit: cover;
   transition: 0.5s;
 }
-.mcard:hover .mimg img {
-  transform: scale(1.09);
-}
+
 .mbdg {
   position: absolute;
   top: 13px;
@@ -748,7 +736,7 @@ section#about{
 }
 .mhrt:hover {
   color: var(--primary);
-  transform: scale(1.18);
+
 }
 .mbody {
   padding: 18px;
@@ -805,9 +793,7 @@ section#about{
   transition: 0.3s;
   box-shadow: 0 4px 11px rgba(232, 40, 26, 0.28);
 }
-.madd:hover {
-  transform: scale(1.15) rotate(90deg);
-}
+
 
 /* ===================== Culture Change Section ===================== */
 #culture_change {
@@ -1100,9 +1086,7 @@ h2.sptitle.limetext
   object-fit: cover;
   transition: 0.5s;
 }
-.gitem:hover img {
-  transform: scale(1.08);
-}
+
 .gover {
   position: absolute;
   inset: 0;
@@ -1240,10 +1224,7 @@ h2.sptitle.limetext
   transition: 0.4s;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07);
 }
-.chcard:hover {
-  transform: translateY(-9px);
-  box-shadow: var(--shadow-lg);
-}
+
 .chimg {
   position: relative;
   overflow: hidden;
@@ -1257,9 +1238,7 @@ h2.sptitle.limetext
   object-position: top;
   transition: 0.5s;
 }
-.chcard:hover .chimg img {
-  transform: scale(1.05);
-}
+
 .chsoc {
   position: absolute;
   bottom: -50px;
@@ -1397,8 +1376,7 @@ h2.sptitle.limetext
   transition: 0.3s;
 }
 .btnw:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+
   color: var(--primary);
 }
 
@@ -1414,10 +1392,7 @@ h2.sptitle.limetext
   overflow: hidden;
   transition: 0.4s;
 }
-.tescard:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow);
-}
+
 
 .tess {
   color: var(--secondary);
@@ -1531,10 +1506,7 @@ h2.sptitle.limetext
   transition: 0.4s;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
 }
-.blcard:hover {
-  transform: translateY(-7px);
-  box-shadow: var(--shadow-lg);
-}
+
 .blimg {
   position: relative;
   height: 195px;
@@ -1546,9 +1518,7 @@ h2.sptitle.limetext
   object-fit: cover;
   transition: 0.5s;
 }
-.blcard:hover .blimg img {
-  transform: scale(1.06);
-}
+
 .bldatebdg {
   position: absolute;
   top: 14px;
@@ -1618,9 +1588,7 @@ h2.sptitle.limetext
 .blmore:hover {
   color: var(--dark);
 }
-.blmore:hover i {
-  transform: translateX(5px);
-}
+
 
 /* ===================== NEWSLETTER ===================== */
 #newsletter {
@@ -1676,10 +1644,7 @@ h2.sptitle.limetext
   transition: 0.3s;
   font-family: 'Source Sans Pro', sans-serif;
 }
-.nlbtn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
-}
+
 @media (max-width: 540px) {
   .nl-form-wrap {
     flex-direction: column;
@@ -1939,9 +1904,7 @@ text-align:right;
   opacity: 1;
   transform: translateY(0);
 }
-#btt:hover {
-  transform: translateY(-4px) !important;
-}
+
 .cartfl {
   position: fixed;
   bottom: 28px;
@@ -1960,9 +1923,7 @@ text-align:right;
   font-weight: 700;
   font-size: 0.88rem;
 }
-.cartfl:hover {
-  transform: translateY(-4px);
-}
+
 .cartfl .ccount {
   background: var(--primary);
   color: #fff;
@@ -2305,10 +2266,7 @@ text-align:right;
   justify-content: center;
   gap: 9px;
 }
-.mpaddcart:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 28px rgba(232, 40, 26, 0.38);
-}
+
 
 /* --- FIX 7: GALLERY POPUP --- */
 #galPop {
@@ -2652,7 +2610,6 @@ text-align:right;
 .btn-register:hover {
     background-color: #c4c924;
     color: #000000;
-    transform: translateY(-2px); /* Gentle micro-interaction elevation */
 }
 .chef-swiper {
     width: 100%;
