@@ -2564,8 +2564,7 @@ text-align:right;
   .stitle {
     font-size: 1.8rem;
   }
-}
-/* Custom Background and Layout Container */
+	/* Custom Background and Layout Container */
 
 .custom-hero-section {
     position: relative;
@@ -2578,6 +2577,8 @@ text-align:right;
     align-items: center;
     min-height: 190vh !important;
 }
+}
+
 
 
 /* Typography Hierarchy */
