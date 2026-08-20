@@ -2568,7 +2568,7 @@ text-align:right;
 /* Custom Background and Layout Container */
 .custom-hero-section {
     position: relative;
-    padding: 10px 0 140px 0; /* Creates spatial breathing room top and bottom */
+    padding: 90px 0 140px 0; /* Creates spatial breathing room top and bottom */
     background-image: url('../img/banner-image-culture-new.png'); /* Overlay darkens bright images to protect text legibility */
     background-size: cover;
     background-position: center right;
@@ -2580,7 +2580,7 @@ text-align:right;
 
 /* Typography Hierarchy */
 .hero-title {
-    font-size: 3.53rem;
+    font-size: 3.2rem;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 24px;
