@@ -846,6 +846,19 @@ section#about{
     align-items: flex-start !important;
     min-height: 80vh !important;
 }
+.hero-title {
+    font-size: 2.4rem;
+}
+	   .badge-pill {
+    font-size: 1.4rem;
+	   }
+	   .hero-subtitle {
+    font-size: 1.8rem;
+	   }
+	   .btn-register {
+    font-size: 1.2rem;
+	   }
+	   
 	   
    }
 	  @media (max-width: 991px){
