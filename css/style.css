@@ -940,11 +940,16 @@ h2.sptitle.limetext
   margin-bottom: 14px;
 }
 .sptitle {
-  font-size: clamp(2.3rem, 5vw, 3.8rem);
+  font-size: 2.5rem;
   font-weight: 900;
   color: #fff;
   line-height: 1.1;
 }
+.sptitle.travel{
+	font-weight: bold; 
+	margin-bottom: 25px;
+}
+
 .sptitle span {
   color: var(--secondary);
 }
@@ -2826,5 +2831,18 @@ text-align:right;
 .btn-register {
 
     font-size: 0.9rem;
+}
+	h2 {
+    font-size: 1.8rem;
+	}
+	h2.sptitle {
+  font-size: 1.8rem;
+	}
+	.flinks a {
+    font-size: 1.0rem;
+    display: block;
+	}
+	.fdesc.proof {
+    margin-bottom: 2rem;
 }
 }
