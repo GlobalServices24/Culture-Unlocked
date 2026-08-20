@@ -2790,3 +2790,41 @@ text-align:right;
 {
 	color:var(--white); 
 }
+@media (max-width: 480px) {
+  .hcircle {
+    width: 220px;
+    height: 220px;
+  }
+  .htitle {
+    font-size: 2.4rem;
+  }
+  .stitle {
+    font-size: 1.8rem;
+  }
+	/* Custom Background and Layout Container */
+
+.custom-hero-section {
+    position: relative;
+    padding: 140px 0 100px 0 !important
+    background-image: url(../img/banner-image-culture-Mobile-small.png) !important;
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    min-height: 110vh !important;
+}
+.hero-title {
+    font-size: 1.9rem;
+}
+.badge-pill {
+    font-size: 1.05rem;
+}
+.hero-subtitle {
+    font-size: 1.3rem;
+}
+.btn-register {
+
+    font-size: 0.9rem;
+}
+}
