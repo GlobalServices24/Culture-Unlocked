@@ -805,7 +805,7 @@ section#about{
  background-image: url('../img/culture_change-bg.png'); 
  background-color: var(--primary); 
  background-size: cover; 
- background-position: right center; 
+ background-position: 80%; 
  background-repeat: no-repeat; 
  color: #ffffff; 
  padding: 60px 0; 
@@ -824,8 +824,8 @@ section#about{
    /* Responsive override for smaller screens (below 1200px) */
    @media (max-width: 1200px){
       #culture_change {
-         background-image: url('../img/mobile_culture_change-bg.png'); /* New smaller/shifted asset */
-         background-position: right top; /* Tailored position for the smaller graphic */
+         background-image: url('../img/mobile_culture_change-bg.png'); 
+         background-position: right top !important; 
          padding: 40px 0;
       }
 
