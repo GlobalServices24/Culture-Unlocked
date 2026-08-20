@@ -854,7 +854,7 @@ section#about{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    min-height: 150vh;
+    min-height: 150vh !important;
 }
 	   
    }
@@ -2575,7 +2575,7 @@ text-align:right;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    min-height: 150vh; /* Scaled viewport depth */
+    min-height: 90vh; /* Scaled viewport depth */
 }
 
 /* Typography Hierarchy */
