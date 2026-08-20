@@ -847,13 +847,13 @@ section#about{
 
 .custom-hero-section {
     position: relative;
-    padding: 10px 0 140px 0;
+    padding: 140px 0 140px 0 !important;
     background-image: url(../img/banner-image-culture-Mobile.png) !important;
     background-size: cover;
     background-position: bottom right !important;
     background-repeat: no-repeat;
     display: flex;
-    align-items: center;
+    align-items: flex-start !important;
     min-height: 150vh !important;
 }
 	   
