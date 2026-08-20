@@ -2470,6 +2470,9 @@ text-align:right;
 	.fsoc {
     justify-content: flex-start;
 	}
+	.navbar-collapse {
+    background: #929396;
+}
 	
 }
 @media (max-width: 767px) {
@@ -2845,4 +2848,14 @@ text-align:right;
 	.fdesc.proof {
     margin-bottom: 2rem;
 }
+	.blogo img
+	{
+		width:80%;
+		margin-left:10px;
+	}
+	.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+
+    --bs-gutter-x: 0 !important;
+	}
+	
 }
