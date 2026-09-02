@@ -1932,7 +1932,16 @@ text-align:right;
 .fbot a:hover {
   color: var(--secondary);
 }
+a.whitelink
+{
+	color:#fff;
+}
 
+a.whitelink:hover
+{
+	color:#fff;
+	text-decoration:underline;
+}
 /* ===================== UTILITIES ===================== */
 #btt {
   position: fixed;
