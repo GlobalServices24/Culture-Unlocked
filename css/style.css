@@ -694,7 +694,7 @@ section#about{
   overflow: hidden;
   transition: 0.4s;
   border:2px solid var(--secondary);
-  cursor: pointer;
+  cursor: default;
   display:flex;
   flex-direction:column;
   flex-grow:1;
