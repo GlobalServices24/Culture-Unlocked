@@ -872,6 +872,7 @@ section#about{
 }
 .hero-title {
     font-size: 2.4rem;
+	line-height: 2.4rem;
 }
 	   .badge-pill {
     font-size: 1.4rem;
@@ -2620,6 +2621,7 @@ a.whitelink:hover
 }
 .hero-title {
     font-size: 1.9rem;
+	line-height:1.9rem;
 }
 .badge-pill {
     font-size: 1.05rem;
@@ -2903,6 +2905,7 @@ a.whitelink:hover
 }
 .hero-title {
     font-size: 1.9rem;
+	line-height: 1.9rem;
 }
 .badge-pill {
     font-size: 1.05rem;
