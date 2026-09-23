@@ -2951,31 +2951,31 @@ a.whitelink:hover
     }
 }
 
-/* The main row container stretching across the page */
+/* Icon row container*/
 .icon-items-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; /* Spaces items perfectly from edge to edge */
+  justify-content: space-evenly; 
   align-items: center;
   width: 100%;
   padding: 20px 0;
-  flex-wrap: wrap; /* Prevents breaking on smaller tablet screens */
-  gap: 20px;       /* Fallback spacing for mobile screens */
+  flex-wrap: wrap; 
+  gap: 20px;       
 }
 
-/* Individual text and icon pairings */
+
 .icon-item {
   display: flex;
   align-items: center;
-  color: #0056b3; /* Tweak this color to match the exact AC brand blue */
+  color: color: var(--secondary);
   font-family: sans-serif;
   font-size: 1rem;
   font-weight: 500;
 }
 
-/* Spaces the icon slightly away from its companion text */
+
 .icon-item i {
   margin-right: 8px;
-  font-size: 1.2rem; /* Makes the icon pop slightly more than the text */
+  font-size: 1.4rem; 
 }
 
