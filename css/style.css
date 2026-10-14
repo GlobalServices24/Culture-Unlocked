@@ -2639,6 +2639,10 @@ a.whitelink:hover
 
     font-size: 0.9rem;
 }
+	.hero_key
+	{
+		display:none !important;
+	}
 }
 /* Custom Background and Layout Container */
 .custom-hero-section {
