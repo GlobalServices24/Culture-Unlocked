@@ -2553,7 +2553,7 @@ a.whitelink:hover
 	{
 		padding-right:40px !important;
 	}
-	custom-hero-section {
+	.custom-hero-section {
         			background-image: url("https://globalservices24.github.io/Culture-Unlocked/img/hero_bg_grey.png") !important;
         		}
 }
