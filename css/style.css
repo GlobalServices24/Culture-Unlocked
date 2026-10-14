@@ -2518,6 +2518,8 @@ a.whitelink:hover
     align-items: center;
     min-height: 240vh !important;
 }
+
+	
 .col-lg-5.rightfooter {
     text-align: left; 
 }
@@ -2557,6 +2559,14 @@ a.whitelink:hover
         			background-image: url("https://globalservices24.github.io/Culture-Unlocked/img/hero_bg_grey.png") !important;
         		}
 }
+
+/* Targets tablets specifically in vertical/portrait orientation */
+@media screen and (max-width: 991px) and (orientation: portrait) {
+  .custom-hero-section {
+    min-height: 100vh !important;
+  }
+}
+
 @media (max-width: 767px) {
   section {
     padding: 55px 0;
