@@ -867,6 +867,9 @@ section#about{
     align-items: flex-start !important;
     min-height: 40vh !important;
 }
+	   .custom-hero-section {
+            background-image: url(https://globalservices24.github.io/Culture-Unlocked/img/banner-image-culture-Tablet-new.png) !important;
+        			}
 .hero-title {
     font-size: 2.4rem;
 	line-height: 2.4rem;
@@ -1227,6 +1230,9 @@ h2.sptitle.limetext
     .container, .container-lg, .container-md, .container-sm {
         max-width: 970px;
     }
+	.custom-hero-section {
+        			background-image: url("https://globalservices24.github.io/Culture-Unlocked/img/CCU%20Home%20Hero%20BG%20-%20Desktop.png") !important;
+        		}
 }
 @media (max-width: 767px) {
   .timeline::before {
@@ -2547,6 +2553,9 @@ a.whitelink:hover
 	{
 		padding-right:40px !important;
 	}
+	custom-hero-section {
+        			background-image: url("https://globalservices24.github.io/Culture-Unlocked/img/hero_bg_grey.png") !important;
+        		}
 }
 @media (max-width: 767px) {
   section {
@@ -3005,3 +3014,6 @@ a.whitelink:hover
 {
     box-shadow: none;
 }
+
+
+
