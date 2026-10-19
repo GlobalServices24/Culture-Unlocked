@@ -544,6 +544,15 @@ section {
   color: #bbb;
 }
 
+
+/* ===================== Video ===================== */
+#video {
+  background: #fff;
+	padding: 32px 0px 0px 0px;
+}
+section#video{
+  padding: 32px 0px 32px 0px;
+}
 /* ===================== ABOUT ===================== */
 #about {
   background: #fff;
@@ -832,7 +841,15 @@ section#about{
     padding: 60px 0;
     min-height: 350px;
 }
-
+#video {
+    background-image: none;
+	background-size: 50%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 60px 0;
+    min-height: 350px;
+}
 
  /* Responsive override for larger screens (above 1200px) */
    @media (min-width: 1200px){
@@ -900,6 +917,10 @@ section#about{
     margin-top: 15px;
 }
 #about {
+    background-image: none !important;
+		  
+	  }
+		  #video {
     background-image: none !important;
 		  
 	  }
