@@ -765,6 +765,7 @@ section#about{
   margin-bottom: 5px;
   font-family: 'Source Sans Pro', sans-serif;
    text-align:center;
+	line-height: 1.5rem !important;
 
 }
 .mdesc {
