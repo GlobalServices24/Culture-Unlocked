@@ -842,9 +842,9 @@ section#about{
     min-height: 350px;
 }
 #video {
-    background-image: none;
-	background-size: 50%;
-    background-position: left top;
+        background-image: url(../img/AC-circle-mobile-updated.png);
+    background-size: 50%;
+    background-position: 85%;
     background-repeat: no-repeat;
     color: #ffffff;
     padding: 60px 0;
