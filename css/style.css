@@ -2674,10 +2674,10 @@ a.whitelink:hover
 
     font-size: 0.9rem;
 }
-	.hero_key
+	/*.hero_key
 	{
 		display:none !important;
-	}
+	}*/
 }
 /* Custom Background and Layout Container */
 .custom-hero-section {
@@ -2940,13 +2940,13 @@ a.whitelink:hover
 .custom-hero-section {
     position: relative;
     padding: 140px 0 100px 0 !important;
-    background-image: url(../img/banner-image-culture-Mobile-small.png) !important;
+    background-image: url(../img/hero_bg_grey.png) !important;
     background-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    min-height: 130vh !important;
+    min-height: 85vh !important;
 }
 .hero-title {
     font-size: 1.9rem;
