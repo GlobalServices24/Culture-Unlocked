@@ -2992,6 +2992,7 @@ a.whitelink:hover
 	.icon-items-row
 	{
 		flex-direction:column;
+		gap:10px;
 	}
 }
 
