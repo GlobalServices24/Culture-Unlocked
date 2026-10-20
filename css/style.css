@@ -1963,12 +1963,13 @@ text-align:right;
 a.whitelink
 {
 	color:#fff;
+	border-bottom: 1px solid;
 }
 
 a.whitelink:hover
 {
 	color:#fff;
-	text-decoration:underline;
+	border-bottom: 1px solid;
 }
 /* ===================== UTILITIES ===================== */
 #btt {
