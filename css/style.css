@@ -2991,8 +2991,8 @@ a.whitelink:hover
 }
 	.icon-items-row
 	{
-		flex-direction:column;
-		gap:10px;
+		flex-direction:column !important;
+		gap:10px !important;
 	}
 }
 
