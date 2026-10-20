@@ -553,6 +553,9 @@ section {
 section#video{
   padding: 32px 0px 32px 0px;
 }
+#video .astack {
+    padding: 20px;
+}
 /* ===================== ABOUT ===================== */
 #about {
   background: #fff;
@@ -561,7 +564,9 @@ section#video{
 section#about{
   padding: 32px 0px 32px 0px;
 }
-
+section#speakers{
+background-color:#f2f2f2; 
+}
 #advancing {
   background: var(--primary);
 }
@@ -842,10 +847,7 @@ section#about{
     min-height: 350px;
 }
 #video {
-        background-image: url(../img/AC-circle-mobile-updated.png);
-    background-size: 50%;
-    background-position: 85%;
-    background-repeat: no-repeat;
+        background-image: none !important;
     color: #ffffff;
     padding: 60px 0;
     min-height: 350px;
